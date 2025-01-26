@@ -29,12 +29,7 @@ class CustomerList extends Component {
           <tbody>
             {customers.map(customer => {
               return (
-                <Customer
-                  key={customer.id}
-                  customer={customer}
-                  onDelete={this.onDelete}
-                  onEdit={this.onEdit}
-                />
+                
               );
             })}
           </tbody>
